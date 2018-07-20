@@ -2,13 +2,24 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  margin-left: 10px;
   border-bottom: 1px solid seashell;
+  height: 69px;
+  /* debug: position: fixed; */
+
 }
 nav {
   display: flex;
+  height: auto;
+  width: 400px;
+  justify-content: space-between;
 }
-header a {
+nav a{
+  margin: auto;
+  color: seashell;
+}
+header img {
+  margin: 10px 10px;
+  height: 50px;
 
 }
 
@@ -16,5 +27,29 @@ body {
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
+  background-color: black;
   opacity: 0.9;
+  text-align: center;
+}
+
+.section.one{
+  display: flex;
+}
+
+.missionpic {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  margin: auto;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  z-index: 1;
+  margin-top: 315px;
+  border: 1px solid black;
+}
+.mission h2{
+  margin-top: 10px;
 }
