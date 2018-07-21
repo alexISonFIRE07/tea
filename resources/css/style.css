@@ -1,3 +1,5 @@
+/* header*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -23,6 +25,8 @@ header img {
 
 }
 
+/* main body */
+
 body {
   font-family: helvetica;
   font-size: 22px;
@@ -30,7 +34,10 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  align-items: center;
 }
+
+/* first section*/
 
 .section.one{
   display: flex;
@@ -52,4 +59,43 @@ body {
 }
 .mission h2{
   margin-top: 10px;
+}
+
+/* 2nd section */
+.month {
+  width: 1000px;
+  margin: auto;
+}
+
+.teatypes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.picture img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px;
+}
+.picture h4 {
+  margin: 0px 0px;
+}
+
+/* Locations */
+
+.locationflexcontainer {
+  display: flex;
+}
+
+.flexcontainer{
+  display: flex;
+  background-image: url(../images/locations.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.flexlocation{
+  background-color: black;
+  width: 300px;
 }
