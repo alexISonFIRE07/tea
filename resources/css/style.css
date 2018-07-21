@@ -6,8 +6,9 @@ header {
   background-color: black;
   border-bottom: 1px solid seashell;
   height: 69px;
-  /* debug: position: fixed; */
-
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -35,12 +36,14 @@ body {
   opacity: 0.9;
   text-align: center;
   align-items: center;
+  margin-top: 0px;
 }
 
 /* first section*/
 
 .section.one{
   display: flex;
+  padding-top: 70px;
 }
 
 .missionpic {
@@ -65,6 +68,7 @@ body {
 .month {
   width: 1000px;
   margin: auto;
+  padding: 50px 0px;
 }
 
 .teatypes {
@@ -85,17 +89,28 @@ body {
 /* Locations */
 
 .locationflexcontainer {
-  display: flex;
-}
-
-.flexcontainer{
-  display: flex;
   background-image: url(../images/locations.jpg);
   height: 500px;
   background-repeat: no-repeat;
   margin: auto;
+  background-position: center;
+  padding-top: 75px;
+}
+
+.flexcontainer{
+  display: flex;
+  justify-content: center;
 }
 .flexlocation{
   background-color: black;
   width: 300px;
+  height: auto;
+  margin: 7px 20px;
+}
+
+/* footer */
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
