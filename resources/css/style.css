@@ -23,7 +23,6 @@ nav a{
 header img {
   margin: 10px 10px;
   height: 50px;
-
 }
 
 /* main body */
@@ -45,7 +44,6 @@ body {
   display: flex;
   padding-top: 70px;
 }
-
 .missionpic {
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
@@ -65,17 +63,16 @@ body {
 }
 
 /* 2nd section */
+
 .month {
   width: 1000px;
   margin: auto;
   padding: 50px 0px;
 }
-
 .teatypes {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 .picture img {
   height: 200px;
@@ -96,7 +93,6 @@ body {
   background-position: center;
   padding-top: 75px;
 }
-
 .flexcontainer{
   display: flex;
   justify-content: center;
